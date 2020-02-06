@@ -1,0 +1,782 @@
+{
+    "TEMPLATE": {
+		"name": "Template",
+		"desc": "This is a description template.",
+		"exits": [{
+			"exit": "EXAMPLE",
+			"target": "EXAMPLE"
+		}],
+		"items": [
+            {
+                "item": "EXAMPLE ITEM",
+                "desc": "A perfectly generic item lies in front of you.",
+                "take": "You grab the perfectly generic item."
+            }
+        ]
+    },
+    "FOREST0": {
+		"name": "Clearing Entrance",
+		"desc": "You find yourself at the entrance to a clearing. \nYou hear the rustling of leaves in the wind. \nYou're here to complete your duties as Sealkeeper. \nIt's best not to dally.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST8"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST4"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST2"
+		}],
+		"items": []
+    },
+    "FOREST1": {
+		"name": "Forest Southwest Corner",
+		"desc": "You're deep in the forest, about as far southwest as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST6"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST2"
+		}],
+		"items": []
+    },
+    "FOREST2": {
+		"name": "Southwestern Forest",
+		"desc": "You're deep in the forest, about as far south as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST7"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST3"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST1"
+		}],
+		"items": []
+    },
+    "FOREST3": {
+		"name": "Clearing Entrance",
+		"desc": "You find yourself at the entrance to a clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST8"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST4"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST2"
+		}],
+		"items": []
+    },
+    "FOREST4": {
+		"name": "Southeastern Forest",
+		"desc": "You're deep in the forest, about as far south as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST9"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST5"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST3"
+		}],
+		"items": []
+    },
+    "FOREST5": {
+		"name": "Forest Southeast Corner",
+		"desc": "You're deep in the forest, about as far southeast as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST10"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST4"
+		}],
+		"items": []
+    },
+    "FOREST6": {
+		"name": "Southwestern Forest",
+		"desc": "You're deep in the forest, about as far west as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST11"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST7"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST1"
+		}],
+		"items": []
+    },
+    "FOREST7": {
+		"name": "Clearing Southwest",
+		"desc": "You're on the southwest side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST12"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST2"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST8"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST6"
+		}],
+		"items": []
+    },
+    "FOREST8": {
+		"name": "Clearing South",
+		"desc": "You're on the south side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST13"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST3"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST9"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST7"
+		}],
+		"items": []
+    },
+    "FOREST9": {
+		"name": "Clearing Southeast",
+		"desc": "You're on the south side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST14"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST4"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST10"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST8"
+		}],
+		"items": []
+    },
+    "FOREST10": {
+		"name": "Southeastern Forest",
+		"desc": "You're deep in the forest, about as far east as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST15"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST5"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST9"
+		}],
+		"items": []
+    },
+    "FOREST11": {
+		"name": "western Forest",
+		"desc": "You're deep in the forest, about as far west as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST16"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST6"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST12"
+		}],
+		"items": []
+    },
+    "FOREST12": {
+		"name": "Clearing West",
+		"desc": "You're on the west side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST17"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST7"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST13"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST11"
+		}],
+		"items": []
+    },
+    "FOREST13": {
+		"name": "Clearing Center",
+		"desc": "You're in the center of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST18"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST8"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST14"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST12"
+		}],
+		"items": []
+    },
+    "FOREST14": {
+		"name": "Clearing East",
+		"desc": "You're on the east side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST19"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST9"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST15"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST13"
+		}],
+		"items": []
+    },
+    "FOREST15": {
+		"name": "Eastern Forest",
+		"desc": "You're deep in the forest, about as far east as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST20"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST10"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST14"
+		}],
+		"items": []
+    },
+    "FOREST16": {
+		"name": "Northwestern Forest",
+		"desc": "You're deep in the forest, about as far west as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST21"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST17"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST11"
+		}],
+		"items": []
+    },
+    "FOREST17": {
+		"name": "Clearing Northwest",
+		"desc": "You're on the northwest side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST22"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST12"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST18"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST16"
+		}],
+		"items": []
+    },
+    "FOREST18": {
+		"name": "Clearing North",
+		"desc": "You're on the north side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST23"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST13"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST19"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST17"
+		}],
+		"items": []
+    },
+    "FOREST19": {
+		"name": "Clearing Northeast",
+		"desc": "You're on the northeast side of a forest clearing. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST24"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST14"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST20"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST18"
+		}],
+		"items": []
+    },
+    "FOREST20": {
+		"name": "Northeastern Forest",
+		"desc": "You're deep in the forest, about as far east as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "FOREST25"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST15"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST19"
+		}],
+		"items": []
+    },
+    "FOREST21": {
+		"name": "Forest Northwest Corner",
+		"desc": "You're deep in the forest, about as far northwest as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "FOREST16"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST22"
+		}],
+		"items": []
+    },
+    "FOREST22": {
+		"name": "Northwestern Forest",
+		"desc": "You're deep in the forest, about as far north as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "FOREST17"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST23"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST21"
+		}],
+		"items": []
+    },
+    "FOREST23": {
+		"name": "Clearing Exit",
+		"desc": "You find yourself at the entrance to a clearing. \nYou hear the rustling of leaves in the wind. \nNorth of you is an old, abandoned town.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "TOWN1"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST18"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST24"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST22"
+		}],
+		"items": []
+    },
+    "FOREST24": {
+		"name": "Northeastern Forest",
+		"desc": "You're deep in the forest, about as far north as you'll go. \nYou hear the rustling of leaves in the wind.",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "FOREST19"
+		}, {
+			"exit": "EAST",
+			"target": "FOREST25"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST23"
+		}],
+		"items": []
+    },
+    "FOREST25": {
+		"name": "Forest Northeast Corner",
+		"desc": "You're deep in the forest, about as far northeast as you'll go. \nYou hear the rustling of leaves in the wind..",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "FOREST20"
+		}, {
+			"exit": "WEST",
+			"target": "FOREST24"
+		}],
+		"items": []
+    }, 
+    "TOWN1": {
+		"name": "Abandonded Town Entrance",
+		"desc": "You're at the entrance to an abandoned town. The town lies just North, the Forest is just South.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "TOWN2"
+		}, {
+			"exit": "SOUTH",
+			"target": "FOREST23"
+		}],
+		"items": []
+    }, 
+    "TOWN2": {
+		"name": "Abandonded Town South",
+		"desc": "You're in the abandoned town. This place used to be bustling. It's a shame it's become abandoned.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "TOWN3"
+		}, {
+			"exit": "SOUTH",
+			"target": "TOWN1"
+		}, {
+			"exit": "EAST",
+			"target": "RUINEDBUILDING1"
+		}, {
+			"exit": "WEST",
+			"target": "RUINEDBUILDING2"
+		}],
+		"items": []
+    }, 
+    "TOWN3": {
+		"name": "Abandoned Town Center",
+		"desc": "You're in the abandoned town. This place used to be bustling. It's a shame it's become abandoned.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "TOWN4"
+		}, {
+			"exit": "SOUTH",
+			"target": "TOWN2"
+		}, {
+			"exit": "EAST",
+			"target": "RUINEDBUILDING3"
+		}, {
+			"exit": "WEST",
+			"target": "RUINEDBUILDING4"
+		}],
+		"items": []
+    }, 
+    "TOWN4": {
+		"name": "Abandoned Town North",
+		"desc": "You're in the abandoned town. This place used to be bustling. It's a shame it's become abandoned.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "TOWN5"
+		}, {
+			"exit": "SOUTH",
+			"target": "TOWN3"
+		}, {
+			"exit": "EAST",
+			"target": "RUINEDBUILDING5"
+		}, {
+			"exit": "WEST",
+			"target": "RUINEDBUILDING6"
+		}],
+		"items": []
+    }, 
+    "TOWN5": {
+		"name": "Abandoned Town Exit",
+		"desc": "You're at the exit to an abandoned town. The town lies just South, the Mine Road is just Nouth.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINEROAD"
+		}, {
+			"exit": "SOUTH",
+			"target": "TOWN4"
+		}],
+		"items": []
+    }, 
+    "RUINEDBUILDING1": {
+		"name": "Ruined Store",
+		"desc": "You're in the ruins of an old store. There's not much left around.",
+		"exits": [{
+			"exit": "WEST",
+			"target": "TOWN2"
+		}],
+		"items": [
+            {
+                "item": "OLD SACK",
+                "desc": "There's a small, old sack with some supplies in the corner.",
+                "take": "You grab the old sack."
+            }
+        ]
+    },
+    "RUINEDBUILDING2": {
+		"name": "Ruined House",
+		"desc": "You're in a ruined house. There's not much left of it.",
+		"exits": [{
+			"exit": "EAST",
+			"target": "TOWN2"
+		}],
+		"items": []
+    },
+    "RUINEDBUILDING3": {
+		"name": "Ruined Tavern",
+		"desc": "You're in the ruins of an old tavern. It's been mostly looted.",
+		"exits": [{
+			"exit": "WEST",
+			"target": "TOWN3"
+		}],
+		"items": [
+            {
+                "item": "OLD BOTTLE",
+                "desc": "A single bottle filled with an unknown liquid sits behind the counter.",
+                "take": "You grab the old bottle."
+            }
+        ]
+    },
+    "RUINEDBUILDING4": {
+		"name": "Ruined House",
+		"desc": "You're in a ruined house. There's not much left of it.",
+		"exits": [{
+			"exit": "EAST",
+			"target": "TOWN3"
+		}],
+		"items": []
+    },
+    "RUINEDBUILDING5": {
+		"name": "Rubble Pile",
+		"desc": "There's nothing left of this building anymore.",
+		"exits": [{
+			"exit": "WEST",
+			"target": "TOWN4"
+		}],
+		"items": []
+    },
+    "RUINEDBUILDING6": {
+		"name": "Ruined House",
+		"desc": "You're in a ruined house. There's not much left of it.",
+		"exits": [{
+			"exit": "EAST",
+			"target": "TOWN4"
+		}],
+		"items": []
+    },
+    "MINEROAD": {
+		"name": "Mine Road",
+		"desc": "This is the road that leads to the old mine. You need to go through the mines to get the White City.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINEOUTSIDE"
+		}, {
+			"exit": "SOUTH",
+			"target": "TOWN5"
+		}],
+		"items": []
+    }, 
+    "MINEOUTSIDE": {
+		"name": "Outside the Mine",
+		"desc": "You're standing outside the old mine. \nYou can see light from inside, because magic keeps the torches inside lit.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE1"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINEROAD"
+		}],
+		"items": []
+    },
+    "MINE1": {
+		"name": "Mine Entrance",
+		"desc": "You stand inside the entrance to the mine. \nIt's not nearly as bright in here, but you can still see thanks to the torches.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE2"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINEOUTSIDE"
+		}],
+		"items": []
+    },
+    "MINE2": {
+		"name": "Mine",
+		"desc": "You're further inside the mine. It's surprisingly intact, given its age.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE3"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE1"
+		}],
+		"items": []
+    },
+    "MINE3": {
+		"name": "Mine",
+		"desc": "You're quite a ways into the mine. The torches have gotten dimmer, no doubt due to age. \nYou might have to fix them on your way out.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE4"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE2"
+		}],
+		"items": []
+    },
+    "MINE4": {
+		"name": "Mine",
+		"desc": "You're very far into the mine. Some of the torches have completely gone out. \nThankfully, you can still see pretty well. You'll definitely have to fix these later.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE5"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE3"
+		}],
+		"items": []
+    },
+    "MINE5": {
+		"name": "Mine",
+		"desc": "You're almost to the end of the mine. \nA couple of the side tunnels seem to have collapsed, but thankfully you don't need to use any of them.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINE6"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE4"
+		}],
+		"items": []
+    },
+    "MINE6": {
+		"name": "Mine",
+		"desc": "You've reached the end of the mine. The Elevator down to the White City lies in front of you.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "MINEELEVTOPEN"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE5"
+		}],
+		"items": []
+    },
+    "MINEELEVTOPEN": {
+		"name": "Mine Elevator",
+		"desc": "You step onto the old mine elevator. It creeks under your feet.",
+		"exits": [{
+			"exit": "DOWN",
+			"target": "MINEELEVBOTEX"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE6"
+		}],
+		"items": []
+    },
+    "MINEELEVTOPEX": {
+		"name": "Mine Elevator",
+		"desc": "The elevator creaks to a halt at the top.",
+		"exits": [{
+			"exit": "DOWN",
+			"target": "MINEELEVBOTEX"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINE6"
+		}],
+		"items": []
+    },
+    "MINEELEVBOTEN": {
+		"name": "Mine Elevator",
+		"desc": "You step onto the old mine elevator. It creaks under your feet.",
+		"exits": [{
+			"exit": "UP",
+			"target": "MINEELEVTOPEX"
+		}, {
+			"exit": "NORTH",
+			"target": "WHITECITY1"
+		}],
+		"items": []
+    },
+    "MINEELEVBOTEX": {
+		"name": "Mine Elevator",
+		"desc": "The elevator creaks to a halt at the bottom.",
+		"exits": [{
+			"exit": "UP",
+			"target": "MINEELEVTOPEX"
+		}, {
+			"exit": "NORTH",
+			"target": "WHITECITY1"
+		}],
+		"items": []
+    },
+    "WHITECITY1": {
+		"name": "White City Entrance",
+		"desc": "You stand at the entrance to the White City. The Sealing Chamber lies straight North. The Mine Elevator is just South behind you.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "WHITECITY2"
+		}, {
+			"exit": "SOUTH",
+			"target": "MINEELEVBOTEN"
+		}],
+		"items": []
+    },
+    "WHITECITY2": {
+		"name": "White City Streets",
+		"desc": "The White City is an ancient marvel. A testament to the conviction of the ancient people of this land.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "WHITECITY3"
+		}, {
+			"exit": "SOUTH",
+			"target": "WHITECITY1"
+		}],
+		"items": []
+    },
+    "WHITECITY3": {
+		"name": "White City Streets",
+		"desc": "No one lives here anymore, of course. No one has for hundreds of years. Not since the incident.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "WHITECITY4"
+		}, {
+			"exit": "SOUTH",
+			"target": "WHITECITY2"
+		}],
+		"items": []
+    },
+    "WHITECITY4": {
+		"name": "White City Streets",
+		"desc": "The incident that needed a seal to be created. The seal you're in charge of keeping intact. \nThe Sealing Chamber lies just ahead. No time to stop now.",
+		"exits": [{
+			"exit": "NORTH",
+			"target": "SEALINGCHAMBER"
+		}, {
+			"exit": "SOUTH",
+			"target": "WHITECITY3"
+		}],
+		"items": []
+    },
+    "SEALINGCHAMBER": {
+		"name": "Sealing Chamber",
+		"desc": "The pristine walls of the place always had an otherworld charm to them. \nIt's almost as if the gods have been keeping this place that way. \nYou check the seal. It's still intact, but fading. This is the place to use the crystal and restore the seal.",
+		"exits": [{
+			"exit": "USE CRYSTAL",
+			"target": "SEALEDABYSS"
+		}, {
+			"exit": "SOUTH",
+			"target": "WHITECITY4"
+		}],
+		"items": []
+    }, 
+    "SEALEDABYSS": {
+		"name": "Sealed Abyss",
+		"desc": "You place the crystal on the altar, and step back. \nYou watch as the crystal radiates energy and dissolves, being absorbed into the seal. \nYou're duties are complete, and you can rest once more.",
+		"exits": [{
+			"exit": "SOUTH",
+			"target": "WHITECITY4"
+		}],
+		"items": []
+    }
+}

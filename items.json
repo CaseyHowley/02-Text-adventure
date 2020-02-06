@@ -1,0 +1,34 @@
+{
+    "REMINDER": {
+       "exits": {},
+       "actions": {
+         "INSPECT": "This is a reminder you wrote yourself about your duties.", 
+         "READ": "As a Sealkeeper, your duty is to maintain the seal on the Abyss. \nYou must travel to the sealing chamber in the White City and \nplace a new sealing crystal at the altar."
+       },
+       "points": 1
+    },
+    "CRYSTAL": {
+       "exits": {
+          "SEALINGCHAMBER": "The crystal glows brightly in front of the altar."
+       },
+       "actions": {
+          "INSPECT": "This golden crystal is a Sealing Crystal. The energies within are \n necessary to maintaining the seal on the Abyss."
+       },
+       "points": 10
+    },
+    "OLD SACK": {
+      "exits": {},
+      "actions": {
+        "INSPECT": "It's a small sack with some supplies. Someone must left it behind on accident. \nThe supplies aren't much to you, but maybe \nyou can find the owner when you're done with your duties."
+      },
+      "points": 5
+   },
+   "OLD BOTTLE": {
+      "exits": {},
+      "actions": {
+        "INSPECT": "It's an old bottle filled with some liquid. You're not sure it'd be a good idea, \nbut you could probably take a small sip.",
+        "SIP": "You sip from the old bottle... \nIt's incredibly strong, but still good."
+      },
+      "points": 5
+   }
+ }
